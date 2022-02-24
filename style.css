@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #E8DAB2;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding-bottom: 80px;
+}
+
+.cabecalho{
+    height: 100vh;
+    margin-top: 50vh;
+    padding: 20px;
+    position: relative;
+    /*display: flex;
+    align-items: center;
+    justify-content: space-between;*/
+}
+
+.cabecalho_paragrafo{
+    font-size: 26px;
+    font-style: italic;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.cabecalho_titulo{
+    font-size: 52px;
+    position: absolute;
+    margin-top: 80px;
+}
+
+.cabecalho_imagem{
+    float: right;
+    height: 192px;
+    width: 370px;
+}
+
+.principal{
+    background-color: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 10px 2px 10px rgba(0, 0, 0, 0.507);
+    margin: auto;
+    padding: 34px 24px 10px;
+    text-align: justify;
+    width: 800px;
+}
+
+.conteudo_titulo, .video_titulo{
+    font-size: 30px;
+}
+
+.conteudo_paragrafo, .video_paragrafo{
+    line-height: 24px;
+}
+
+.conteudo_imagem, .video_video{
+    padding: 0px 15px;
+    width: calc(100% - 30px);
+}
+
+.rodape{
+    background-color: #090909;
+    height: 50px;
+    padding: 16px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.rodape_paragrafo{
+    color: #ffffff;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.rodape_link{
+    color: #35b1d2;
+    text-decoration: none;
+}
